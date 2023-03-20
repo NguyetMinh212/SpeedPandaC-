@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameObjects">
+      <UniqueIdentifier>{a8889912-ede5-4732-8413-07f0e427d27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManager">
+      <UniqueIdentifier>{9995e4c8-d03a-4a3d-a686-d035dd8c8c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStateManager">
+      <UniqueIdentifier>{a0b72535-77e8-45a4-a3b1-73f8b5e5ca44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Player">
+      <UniqueIdentifier>{71271c26-9b40-41b4-8b7a-632413122507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Component">
+      <UniqueIdentifier>{5a20bac4-1b84-4044-86c1-25a7d61f9f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Collision">
+      <UniqueIdentifier>{a68b36b3-6868-4766-ad29-db856c8c1fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObjects\Coins">
+      <UniqueIdentifier>{e7392615-a12a-410a-9ee4-596ef1345e0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MinMin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\ResourceManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GameStateMachine.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSIntro.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSMenu.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GameStateBase.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSPlay.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSEnd.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\WindowConnector.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\GameButton.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Player.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\PSIdle.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\PSRunUp.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\PSRunDown.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\PSRunLeft.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\PSRunRight.cpp">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Animation.cpp">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\HitBox.cpp">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Piece.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Matrix.cpp">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\CollisionManager.cpp">
+      <Filter>Source Files\GameObjects\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameObjects\Coin.cpp">
+      <Filter>Source Files\GameObjects\Coins</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSSettings.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSHelp.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSSelectLevel.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameManager\User.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSQuitGame.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSPause.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GameStateManager\GSWarningHome.cpp">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Application.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\ResourceManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\Singleton.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateBase.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GameStateMachine.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSIntro.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSMenu.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSPlay.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSEnd.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\WindowConnector.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\GameButton.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\IPlayer.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\IPState.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Player.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\PSIdle.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\PSRunUp.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\PSRunDown.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\PSRunLeft.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\PSRunRight.h">
+      <Filter>Source Files\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Animation.h">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\HitBox.h">
+      <Filter>Source Files\GameObjects\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Piece.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Matrix.h">
+      <Filter>Source Files\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\CollisionManager.h">
+      <Filter>Source Files\GameObjects\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameObjects\Coin.h">
+      <Filter>Source Files\GameObjects\Coins</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSSettings.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSHelp.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSSelectLevel.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameManager\User.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSQuitGame.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSPause.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GameStateManager\GSWarningHome.h">
+      <Filter>Source Files\GameStateManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

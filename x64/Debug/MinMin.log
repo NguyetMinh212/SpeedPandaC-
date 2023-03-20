@@ -1,0 +1,16 @@
+﻿  Application.cpp
+  Matrix.cpp
+  GSEnd.cpp
+  GSHelp.cpp
+  GSIntro.cpp
+  GSMenu.cpp
+  GSPause.cpp
+  GSPlay.cpp
+  GSQuitGame.cpp
+  GSSelectLevel.cpp
+  GSSettings.cpp
+  GSWarningHome.cpp
+  GameStateBase.cpp
+  GameStateMachine.cpp
+  Generating Code...
+  MinMin.vcxproj -> D:\GameC++\MinMin\x64\Debug\MinMin.exe
